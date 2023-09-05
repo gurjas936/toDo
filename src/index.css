@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  background: linear-gradient(90deg, #00bbff, #ea00ff);
+
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}

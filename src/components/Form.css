@@ -1,0 +1,52 @@
+.form{
+    width: auto;
+    color: rgb(226, 224, 224);
+}
+
+
+form{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inputTask{
+    flex: 6;
+    background-color: #232639;
+    min-width: 300px;   
+    height: 35px;
+    border: 3px solid #3c4265;
+    color:  white;
+    font-size: 25px;
+}
+
+.inputTask:hover{
+    background-color: #8388a4;
+}
+
+.inputTask:focus{
+    background-color: #8388a4;
+    color:  #363b59;
+    
+
+}
+
+label{
+    font-size: 40px;
+}
+
+.submitbtn{
+    flex: 1;
+    background-color: #8388a4;
+    border: 3px solid #3c4265;
+    color:  #363b59;
+    font-weight: 750;
+    border-radius: 10px;
+    padding: 8px;
+    min-width: 6rem;
+}
+
+.submitbtn:hover{
+    color: white;
+}
